@@ -8,9 +8,20 @@ Once copied, a map can be pasted into the appropriate mapping plugin, or into th
 ## Table of Contents
 
 
-[TOC]
 
-
+## Table of Contents
+-Installation
+-Uses
+-Note to Note
+-Pc to Pc
+-Pitch to Pitch
+-Map Assistant
+  -Map Types
+Score Format
+Adaptive Mapper
+Map Sources
+Map Values
+Pc Speller
 
 ## Installation
 
