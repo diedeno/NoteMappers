@@ -8,7 +8,7 @@
 
 A bundle of six pitch-transformation plugins for [MuseScore 2](https://musescore.org). The primary mapping plugins  —  **Note to Note**, **Pc to Pc**, and **Pitch to Pitch** —  map pitches to new values using different models of pitch, as detailed in the descriptions below. The **Map Assistant** plugin lets you design various types of maps with music notation, using a specially formatted score. Maps (which are just comma-separated lists of numbers) can be copied from any of these sources and pasted as text in a score or text file to store them for future use.
 
-Once copied, a map can be pasted into the appropriate mapping plugin, or into the **Adaptive Mapper**, which is designed to recognize and apply any valid map (five types in all). Finally, a **Pc Speller **utility is provided for customizing the spelling of each chromatic step; it is particularly useful in conjunction with the Pc to Pc and Pitch to Pitch plugins, which spell pitches according to built-in defaults that may not suit you.
+Once copied, a map can be pasted into the appropriate mapping plugin, or into the **Adaptive Mapper**, which is designed to recognize and apply any valid map (five types in all). Finally, a **Pc Speller** utility is provided for customizing the spelling of each chromatic step; it is particularly useful in conjunction with the Pc to Pc and Pitch to Pitch plugins, which spell pitches according to built-in defaults that may not suit you.
 
 
 ## Table of Contents
@@ -18,7 +18,7 @@ Once copied, a map can be pasted into the appropriate mapping plugin, or into th
 
 
 
-## Installation {#installation}
+## Installation (#installation)
 
 To use the NoteMapper plugins, you must first install MuseScore. Installations for Windows, Mac, Linux, and BSD are available from the [MuseScore website](https://musescore.org/). These plugins are only compatible with version 2 of MuseScore. 
 
@@ -39,9 +39,9 @@ Conversely, if your musical language encompasses _atonal and highly/freely chrom
 A description of each NoteMapper plugin follows. You can access much of the same information within a plugin by clicking on its Help button.
 
 
-## Note to Note {#note-to-note}
+## Note to Note (#note-to-note)
 
-Use the **From**/**To** input boxes across the top of the Map Input window to assign a new value (letter-name and optional accidental) to a note in every octave throughout the music you are processing. Add as many assignments as the map requires. Then click **Apply **to process the currently selected passage, or the entire score if nothing is selected. 
+Use the **From**/**To** input boxes across the top of the Map Input window to assign a new value (letter-name and optional accidental) to a note in every octave throughout the music you are processing. Add as many assignments as the map requires. Then click **Apply** to process the currently selected passage, or the entire score if nothing is selected. 
 
 An overview of the map is provided on the right side of the window. Click **remove** to delete an individual assignment from the map. Click the **Sort** button to sort the entire overview alphabetically, from A-double-flat through G-double-sharp.
 
@@ -50,18 +50,18 @@ An **Import/Export** field, located at the bottom of the Help window, contains a
 The Note to Note plugin is responsive to scores with [transposing instruments](https://musescore.org/en/handbook/transposition#transposing-instruments). When a score is viewed in **concert pitch**, mapped values are calculated and written into the score using concert pitches for all parts. But when the **transposed** (default) score view is in effect, letter-names and accidentals are read as they appear in the transposed score, and mapped values are written with respect to the same transposition. _Example:_ if C is mapped to C-sharp, then written C (concert B-flat) becomes written C-sharp (concert B) in a part for B-flat clarinet. _Recommendation:_ if you want to apply a map to a score in transposed view, plugin behavior may be easier to understand if you select and process one staff at a time.
 
 
-## Pc to Pc {#pc-to-pc}
+## Pc to Pc (#pc-to-pc)
 
-Pitch class (pc) values represent steps of the chromatic scale: 0 is C (and its enharmonic equivalents), 1 is C-sharp (ditto), and so on. A map determines how pc values will be changed in the music you are processing. To map pc X to a new value Y, find X in the "From" row at the top of the interface, and enter Y in the "To" field directly below it. Use as many "To" fields as your map requires, or try randomizing all twelve values. Then click **Apply **to process the currently selected passage, or the entire score if nothing is selected. 
+Pitch class (pc) values represent steps of the chromatic scale: 0 is C (and its enharmonic equivalents), 1 is C-sharp (ditto), and so on. A map determines how pc values will be changed in the music you are processing. To map pc X to a new value Y, find X in the "From" row at the top of the interface, and enter Y in the "To" field directly below it. Use as many "To" fields as your map requires, or try randomizing all twelve values. Then click **Apply** to process the currently selected passage, or the entire score if nothing is selected. 
 
 New pc values are set in the octave that keeps notes nearest their original positions, and they are spelled according to built-in defaults (e.g. 8 is A-flat rather than G-sharp).
 
-An **Import/Export **field, located at the bottom of the Help window, contains a string representing the current map that can be saved as text in a score or text file. Paste a previously saved string into the same field to import it, replacing the current contents of the Map Input window when Help is closed. The Import/Export string format is a comma-separated list of 12 cpc values (chromatic pitch class: integers in the range 0 through 11).
+An **Import/Export** field, located at the bottom of the Help window, contains a string representing the current map that can be saved as text in a score or text file. Paste a previously saved string into the same field to import it, replacing the current contents of the Map Input window when Help is closed. The Import/Export string format is a comma-separated list of 12 cpc values (chromatic pitch class: integers in the range 0 through 11).
 
 The Pc to Pc plugin is responsive to scores with [transposing instruments](https://musescore.org/en/handbook/transposition#transposing-instruments). When a score is viewed in concert pitch, mapped values are calculated and written into the score using concert pitches for all parts. But when the transposed (default) score view is in effect, values are read as they appear in the transposed score, and mapped values are written with respect to the same transposition. _Example:_ if 0 is mapped to 3, then written C (concert B-flat) becomes written E-flat (concert D-flat) in a part for B-flat clarinet. _Recommendation:_ if you want to apply a map to a score in transposed view, plugin behavior may be easier to understand if you select and process one staff at a time.
 
 
-## Pitch to Pitch {#pitch-to-pitch}
+## Pitch to Pitch (#pitch-to-pitch)
 
 A Pitch to Pitch map determines how MIDI pitch values will be changed in the music you are processing. Normally you specify a map with one or more **pairs** of the form X:Y, meaning "map X to Y". For example, 60:72 raises every middle C by an octave. You can specify additional pairs on new lines, or put them on the same line separated with commas. So:  \
 	45:46,46:45,47:48,48:47  \
@@ -105,7 +105,7 @@ EXAMPLE 1.
 
 The Adaptive Mapper is designed to recognize and apply maps originating from various NoteMapper plugins: Note to Note, Pc to Pc, and Pitch to Pitch; plus maps derived from music notation using the Map Assistant plugin. Maps (which are just comma-separated lists of numbers) can be copied from any of these sources and pasted into the Adaptive Mapper Input window. To store a map for future use, simply paste it as text in a score or text file.
 
-Once a map is entered, click **Apply **to process the currently selected passage, or the entire score if nothing is selected. The Adaptive Mapper is responsive to scores with [transposing instruments](https://musescore.org/en/handbook/transposition#transposing-instruments), when it applies maps originating from the Note to Note and Pc to Pc plugins. For details, see the documentation for these plugins. Finally, maps produced by the Map Assistant, using the "Note to Note" or "Pc to Pc" formats inherit the same behavior, and the "12 spelled PCs" format is treated similarly.
+Once a map is entered, click **Apply** to process the currently selected passage, or the entire score if nothing is selected. The Adaptive Mapper is responsive to scores with [transposing instruments](https://musescore.org/en/handbook/transposition#transposing-instruments), when it applies maps originating from the Note to Note and Pc to Pc plugins. For details, see the documentation for these plugins. Finally, maps produced by the Map Assistant, using the "Note to Note" or "Pc to Pc" formats inherit the same behavior, and the "12 spelled PCs" format is treated similarly.
 
 
 #### Map Sources
