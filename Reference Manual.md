@@ -1,9 +1,3 @@
-<!-----
-* GD2md-html version 1.0β13
------>
-
-
-
 # NoteMapper Plugins
 
 A bundle of six pitch-transformation plugins for [MuseScore 2](https://musescore.org). The primary mapping plugins  —  **Note to Note**, **Pc to Pc**, and **Pitch to Pitch** —  map pitches to new values using different models of pitch, as detailed in the descriptions below. The **Map Assistant** plugin lets you design various types of maps with music notation, using a specially formatted score. Maps (which are just comma-separated lists of numbers) can be copied from any of these sources and pasted as text in a score or text file to store them for future use.
@@ -63,20 +57,20 @@ The Pc to Pc plugin is responsive to scores with [transposing instruments](https
 
 ## Pitch to Pitch
 
-A Pitch to Pitch map determines how MIDI pitch values will be changed in the music you are processing. Normally you specify a map with one or more **pairs** of the form X:Y, meaning "map X to Y". For example, 60:72 raises every middle C by an octave. You can specify additional pairs on new lines, or put them on the same line separated with commas. So:
-> 45:46,46:45,47:48,48:47
-is equivalent to
-> 45:46
-> 46:45
-> 47:48
-> 48:47
+A Pitch to Pitch map determines how MIDI pitch values will be changed in the music you are processing. Normally you specify a map with one or more **pairs** of the form X:Y, meaning "map X to Y". For example, 60:72 raises every middle C by an octave. You can specify additional pairs on new lines, or put them on the same line separated with commas. So: \
+	45:46,46:45,47:48,48:47 \
+	is equivalent to \
+	45:46 \
+	46:45 \
+	47:48 \
+	48:47
 
 It is also possible to specify a map with a **list** of exactly 127 comma-separated pitch values. In this alternative format, the number in the nth position (counting from 1) determines the new value of pitch n. So a map with 72 in the 60th position will raise every middle C by an octave. While it is hardly practical to construct such a long list by hand, you can use the **Map Assistant** plugin to build a list based on the notes in a score, then paste it into the Pitch to Pitch plugin's Map Input window.
 
-Once a map is entered in either format (pairs or list), click **Apply **to process the currently selected passage, or the entire score if nothing is selected. The Pitch to Pitch plugin currently operates on concert pitch only, due to limitations of the plugin framework. (Specifically: it is not possible for a plugin to determine the octave in which transposed pitches are displayed.) _Recommendation:_ plugin behavior may be easier to understand if you [view your score in concert pitch ](https://musescore.org/en/handbook/transposition#transposing-instruments)when transposing instruments are present.
+Once a map is entered in either format (pairs or list), click **Apply** to process the currently selected passage, or the entire score if nothing is selected. The Pitch to Pitch plugin currently operates on concert pitch only, due to limitations of the plugin framework. (Specifically: it is not possible for a plugin to determine the octave in which transposed pitches are displayed.) _Recommendation:_ plugin behavior may be easier to understand if you [view your score in concert pitch ](https://musescore.org/en/handbook/transposition#transposing-instruments)when transposing instruments are present.
 
 
-## Map Assistant {#map-assistant}
+## Map Assistant
 
 Use this plugin to build maps of various types based on notes in the current score. Copy the result and paste it into a suitable NoteMapper to apply it, or save it as text in a score or text file.
 
@@ -101,11 +95,11 @@ Map Assistant expects a score with two staves, each with a succession of single 
 EXAMPLE 1. 
 
 
-## Adaptive Mapper {#adaptive-mapper}
+## Adaptive Mapper
 
 The Adaptive Mapper is designed to recognize and apply maps originating from various NoteMapper plugins: Note to Note, Pc to Pc, and Pitch to Pitch; plus maps derived from music notation using the Map Assistant plugin. Maps (which are just comma-separated lists of numbers) can be copied from any of these sources and pasted into the Adaptive Mapper Input window. To store a map for future use, simply paste it as text in a score or text file.
 
-Once a map is entered, click **Apply** to process the currently selected passage, or the entire score if nothing is selected. The Adaptive Mapper is responsive to scores with [transposing instruments](https://musescore.org/en/handbook/transposition#transposing-instruments), when it applies maps originating from the Note to Note and Pc to Pc plugins. For details, see the documentation for these plugins. Finally, maps produced by the Map Assistant, using the "Note to Note" or "Pc to Pc" formats inherit the same behavior, and the "12 spelled PCs" format is treated similarly.
+Once a map is entered, click **Apply** to process the currently selected passage, or the entire score if nothing is selected. The Adaptive Mapper is responsive to scores with [transposing instruments](https://musescore.org/en/handbook/transposition#transposing-instruments), when it applies maps originating from the Note to Note and Pc to Pc plugins. For details, see the documentation for these plugins. Finally, maps produced by the Map Assistant using the "Note to Note" or "Pc to Pc" formats inherit the same behavior, and the "12 spelled PCs" format is treated similarly.
 
 
 #### Map Sources
@@ -128,7 +122,7 @@ Once a map is entered, click **Apply** to process the currently selected passage
 **TPC (tonal pitch class):** integer -1 – 33, representing letter-name plus accidental
 
 
-## Pc Speller {#pc-speller}
+## Pc Speller
 
 Use this plugin to apply a spelling of your choice to each step of the chromatic scale (i.e. to each pitch class 0 through 11). Leave a setting at "--" to preserve a pc's existing spelling(s). For instance, if the music you are processing includes a mixture of G-sharps and A-flats, the plugin can spell them uniformly one way or the other, or leave things as they stand. It cannot choose spellings based on tonal context or make case-by-case decisions. It is mainly intended as a tool for overriding the default spellings used by the Pc to Pc and Pitch to Pitch plugins.
 
