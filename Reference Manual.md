@@ -30,7 +30,7 @@ Next:
 1.  Follow the MuseScore Handbook instructions for [plugin installation](https://musescore.org/en/handbook/plugins#installation).
 
 
-## Uses {#uses}
+## Uses
 
 A common mapping application is to transform melodic material by changing its underlying mode or scale. Purely modal or diatonic material is best suited to this treatment, because chromatic alterations make the identity of each mode/scale less clear and complicate the design of a suitable map. _Composers who work with modal and tonal materials_ may be particularly interested in the Note to Note, Map Assistant, and Adaptive Mapper plugins.
 
@@ -39,7 +39,7 @@ Conversely, if your musical language encompasses _atonal and highly/freely chrom
 A description of each NoteMapper plugin follows. You can access much of the same information within a plugin by clicking on its Help button.
 
 
-## Note to Note (#note-to-note)
+## Note to Note
 
 Use the **From**/**To** input boxes across the top of the Map Input window to assign a new value (letter-name and optional accidental) to a note in every octave throughout the music you are processing. Add as many assignments as the map requires. Then click **Apply** to process the currently selected passage, or the entire score if nothing is selected. 
 
@@ -50,7 +50,7 @@ An **Import/Export** field, located at the bottom of the Help window, contains a
 The Note to Note plugin is responsive to scores with [transposing instruments](https://musescore.org/en/handbook/transposition#transposing-instruments). When a score is viewed in **concert pitch**, mapped values are calculated and written into the score using concert pitches for all parts. But when the **transposed** (default) score view is in effect, letter-names and accidentals are read as they appear in the transposed score, and mapped values are written with respect to the same transposition. _Example:_ if C is mapped to C-sharp, then written C (concert B-flat) becomes written C-sharp (concert B) in a part for B-flat clarinet. _Recommendation:_ if you want to apply a map to a score in transposed view, plugin behavior may be easier to understand if you select and process one staff at a time.
 
 
-## Pc to Pc (#pc-to-pc)
+## Pc to Pc
 
 Pitch class (pc) values represent steps of the chromatic scale: 0 is C (and its enharmonic equivalents), 1 is C-sharp (ditto), and so on. A map determines how pc values will be changed in the music you are processing. To map pc X to a new value Y, find X in the "From" row at the top of the interface, and enter Y in the "To" field directly below it. Use as many "To" fields as your map requires, or try randomizing all twelve values. Then click **Apply** to process the currently selected passage, or the entire score if nothing is selected. 
 
@@ -61,15 +61,15 @@ An **Import/Export** field, located at the bottom of the Help window, contains a
 The Pc to Pc plugin is responsive to scores with [transposing instruments](https://musescore.org/en/handbook/transposition#transposing-instruments). When a score is viewed in concert pitch, mapped values are calculated and written into the score using concert pitches for all parts. But when the transposed (default) score view is in effect, values are read as they appear in the transposed score, and mapped values are written with respect to the same transposition. _Example:_ if 0 is mapped to 3, then written C (concert B-flat) becomes written E-flat (concert D-flat) in a part for B-flat clarinet. _Recommendation:_ if you want to apply a map to a score in transposed view, plugin behavior may be easier to understand if you select and process one staff at a time.
 
 
-## Pitch to Pitch (#pitch-to-pitch)
+## Pitch to Pitch
 
-A Pitch to Pitch map determines how MIDI pitch values will be changed in the music you are processing. Normally you specify a map with one or more **pairs** of the form X:Y, meaning "map X to Y". For example, 60:72 raises every middle C by an octave. You can specify additional pairs on new lines, or put them on the same line separated with commas. So:  \
-	45:46,46:45,47:48,48:47  \
-is equivalent to \
-	45:46 \
-	46:45 \
-	47:48 \
-	48:47
+A Pitch to Pitch map determines how MIDI pitch values will be changed in the music you are processing. Normally you specify a map with one or more **pairs** of the form X:Y, meaning "map X to Y". For example, 60:72 raises every middle C by an octave. You can specify additional pairs on new lines, or put them on the same line separated with commas. So:
+> 45:46,46:45,47:48,48:47
+is equivalent to
+> 45:46
+> 46:45
+> 47:48
+> 48:47
 
 It is also possible to specify a map with a **list** of exactly 127 comma-separated pitch values. In this alternative format, the number in the nth position (counting from 1) determines the new value of pitch n. So a map with 72 in the 60th position will raise every middle C by an octave. While it is hardly practical to construct such a long list by hand, you can use the **Map Assistant** plugin to build a list based on the notes in a score, then paste it into the Pitch to Pitch plugin's Map Input window.
 
