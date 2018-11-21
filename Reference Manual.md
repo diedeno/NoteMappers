@@ -18,7 +18,7 @@ Once copied, a map can be pasted into the appropriate mapping plugin, or into th
 
 
 
-## Installation (#installation)
+## Installation
 
 To use the NoteMapper plugins, you must first install MuseScore. Installations for Windows, Mac, Linux, and BSD are available from the [MuseScore website](https://musescore.org/). These plugins are only compatible with version 2 of MuseScore. 
 
