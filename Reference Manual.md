@@ -59,13 +59,14 @@ The Pc to Pc plugin is responsive to scores with [transposing instruments](https
 
 A Pitch to Pitch map determines how MIDI pitch values will be changed in the music you are processing. Normally you specify a map with one or more **pairs** of the form X:Y, meaning "map X to Y". For example, 60:72 raises every middle C by an octave. You can specify additional pairs on new lines, or put them on the same line separated with commas. So:
 
-  45:46,46:45,47:48,48:47
+&nbsp&nbsp45:46,46:45,47:48,48:47
   
 is equivalent to
-  45:46 \
-  46:45 \
-  47:48 \
-  48:47
+
+&nbsp&nbsp45:46 \
+&nbsp&nbsp46:45 \
+&nbsp&nbsp47:48 \
+&nbsp&nbsp48:47
 
 It is also possible to specify a map with a **list** of exactly 127 comma-separated pitch values. In this alternative format, the number in the nth position (counting from 1) determines the new value of pitch n. So a map with 72 in the 60th position will raise every middle C by an octave. While it is hardly practical to construct such a long list by hand, you can use the **Map Assistant** plugin to build a list based on the notes in a score, then paste it into the Pitch to Pitch plugin's Map Input window.
 
