@@ -15,6 +15,7 @@ Once copied, a map can be pasted into the appropriate mapping plugin, or into th
   - [Adaptive Mapper](#adaptive-mapper)
   - [Pc Speller](#pc-speller)
 
+
 ## Installation
 
 To use the NoteMapper plugins, you must first install MuseScore. Installations for Windows, Mac, Linux, and BSD are available from the [MuseScore website](https://musescore.org/). These plugins are only compatible with version 2 of MuseScore. 
@@ -36,7 +37,7 @@ A description of each NoteMapper plugin follows. You can access much of the same
 
 ## Note to Note
 
-![NoteToNote_and_help.PNG]NoteMappers/images/NoteToNote_and_help.PNG)
+![NoteToNote_and_help.PNG](NoteMappers/images/NoteToNote_and_help.PNG)
       
 
 Use the **From**/**To** input boxes across the top of the Map Input window to assign a new value (letter-name and optional accidental) to a note in every octave throughout the music you are processing. Add as many assignments as the map requires. Then click **Apply** to process the currently selected passage, or the entire score if nothing is selected. 
@@ -50,6 +51,8 @@ The Note to Note plugin is responsive to scores with [transposing instruments](h
 
 ## Pc to Pc
 
+        ![PcToPc.PNG](NoteMappers/images/PcToPc.PNG)
+      
 Pitch class (pc) values represent steps of the chromatic scale: 0 is C (and its enharmonic equivalents), 1 is C-sharp (ditto), and so on. A map determines how pc values will be changed in the music you are processing. To map pc X to a new value Y, find X in the "From" row at the top of the interface, and enter Y in the "To" field directly below it. Use as many "To" fields as your map requires, or try randomizing all twelve values. Then click **Apply** to process the currently selected passage, or the entire score if nothing is selected. 
 
 New pc values are set in the octave that keeps notes nearest their original positions, and they are spelled according to built-in defaults (e.g. 8 is A-flat rather than G-sharp).
