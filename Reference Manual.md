@@ -63,7 +63,7 @@ The Pc to Pc plugin is responsive to scores with [transposing instruments](https
 
 ## Pitch to Pitch
 
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/PitchToPitch.PNG" width="70%" height="70%" title="PitchToPitch.PNG">
+<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/PitchToPitch.PNG" width="50%" height="50%" title="PitchToPitch.PNG">
 
 A Pitch to Pitch map determines how MIDI pitch values will be changed in the music you are processing. Normally you specify a map with one or more **pairs** of the form `X:Y`, meaning "map X to Y". For example, `60:72` raises every middle C by an octave. You can specify additional pairs on new lines, or put them on the same line separated with commas. So:
 
@@ -110,7 +110,7 @@ Map Assistant expects a score with two staves, each with a succession of single 
 
 ## Adaptive Mapper
 
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/X.PNG" width="70%" height="70%" title="X.PNG">
+<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/Adaptive.PNG" width="50%" height="50%" title="Adaptive.PNG">
 
 The Adaptive Mapper is designed to recognize and apply maps originating from various NoteMapper plugins: Note to Note, Pc to Pc, and Pitch to Pitch; plus maps derived from music notation using the Map Assistant plugin. Maps (which are just comma-separated lists of numbers) can be copied from any of these sources and pasted into the Adaptive Mapper Input window. To store a map for future use, simply paste it as text in a score or text file.
 
@@ -139,7 +139,7 @@ Once a map is entered, click **Apply** to process the currently selected passage
 
 ## Pc Speller
 
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/PcSpeller.PNG" width="70%" height="70%" title="PcSpeller.PNG">
+<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/PcSpeller.PNG" width="50%" height="50%" title="PcSpeller.PNG">
 
 Use this plugin to apply a spelling of your choice to each step of the chromatic scale (i.e. to each pitch class 0 through 11). Leave a setting at "--" to preserve a pc's existing spelling(s). For instance, if the music you are processing includes a mixture of G-sharps and A-flats, the plugin can spell them uniformly one way or the other, or leave things as they stand. It cannot choose spellings based on tonal context or make case-by-case decisions. It is mainly intended as a tool for overriding the default spellings used by the Pc to Pc and Pitch to Pitch plugins.
 
