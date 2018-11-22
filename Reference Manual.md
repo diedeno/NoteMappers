@@ -37,7 +37,7 @@ A description of each NoteMapper plugin follows. You can access much of the same
 
 ## Note to Note
 
-![NoteToNote_and_help.PNG](https://github.com/paulsantacruz/NoteMappers/images/NoteToNote_and_help.PNG)
+![NoteToNote_and_help.PNG](https://github.com/paulsantacruz/NoteMappers/blob/master/images/NoteToNote_and_help.PNG)
 
 <img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/NoteToNote_and_help.PNG" width="838" height="495" title="NoteToNote_and_help.PNG">
       
