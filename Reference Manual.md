@@ -105,7 +105,7 @@ Use this plugin to build maps of various types based on notes in the current sco
 
 Map Assistant expects a score with two staves, each with a succession of single notes, and it produces a map that sends the first note of the upper staff to the first of the lower, the second of the upper to the second of the lower, third to third, and so on. The alignment of upper-staff and lower-staff notes is ignored, as are surplus notes, voices, and staves (see example). A score far outside these expectations may cause the plugin to fail.
 
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/MapAsst_ScoreEx.png" title="MapAsst_ScoreEx.png">
+<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/MapAsst_ScoreEx.PNG" title="MapAsst_ScoreEx.PNG">
 
 
 ## Adaptive Mapper
