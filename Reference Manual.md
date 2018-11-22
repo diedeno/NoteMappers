@@ -37,7 +37,7 @@ A description of each NoteMapper plugin follows. You can access much of the same
 
 ## Note to Note
 
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/NoteToNote_and_Help.PNG" width="70%" height="70%" title="NoteToNote_and_help.PNG">
+<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/NoteToNote_and_Help.PNG" width="70%" height="70%" title="NoteToNote_and_Help.PNG">
 
 Use the **From**/**To** input boxes across the top of the Map Input window to assign a new value (letter-name and optional accidental) to a note in every octave throughout the music you are processing. Add as many assignments as the map requires. Then click **Apply** to process the currently selected passage, or the entire score if nothing is selected. 
 
@@ -105,7 +105,7 @@ Use this plugin to build maps of various types based on notes in the current sco
 
 Map Assistant expects a score with two staves, each with a succession of single notes, and it produces a map that sends the first note of the upper staff to the first of the lower, the second of the upper to the second of the lower, third to third, and so on. The alignment of upper-staff and lower-staff notes is ignored, as are surplus notes, voices, and staves (see example). A score far outside these expectations may cause the plugin to fail.
 
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/MapAsst_ScoreEx.PNG" title="MapAsst_ScoreEx.PNG">
+<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/MapAsst_ScoreEx.png" title="MapAsst_ScoreEx.png">
 
 
 ## Adaptive Mapper
