@@ -50,7 +50,7 @@ The Note to Note plugin is responsive to scores with [transposing instruments](h
 
 ## Pc to Pc
 
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/PcToPc.PNG" width="70%" height="70%" title="PcToPc.PNG">
+<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/PcToPc.PNG" width="50%" height="50%" title="PcToPc.PNG">
       
 Pitch class (pc) values represent steps of the chromatic scale: 0 is C (and its enharmonic equivalents), 1 is C-sharp (ditto), and so on. A map determines how pc values will be changed in the music you are processing. To map pc X to a new value Y, find X in the "From" row at the top of the interface, and enter Y in the "To" field directly below it. Use as many "To" fields as your map requires, or try randomizing all twelve values. Then click **Apply** to process the currently selected passage, or the entire score if nothing is selected. 
 
