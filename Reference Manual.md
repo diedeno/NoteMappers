@@ -7,7 +7,7 @@ Once copied, a map can be pasted into the appropriate mapping plugin, or into th
 ## Table of Contents
 - [Installation](#installation)
 - [Uses](#uses)
-- PLUGIN REFERENCE
+- THE PLUGINS
   - [Note to Note](#note-to-note)
   - [Pc to Pc](#pc-to-pc)
   - [Pitch to Pitch](#pitch-to-pitch)
@@ -37,12 +37,7 @@ A description of each NoteMapper plugin follows. You can access much of the same
 
 ## Note to Note
 
-![NoteToNote_and_help.PNG](https://github.com/paulsantacruz/NoteMappers/blob/master/images/NoteToNote_and_help.PNG)
-
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/NoteToNote_and_help.PNG" width="419" height="248" title="NoteToNote_and_help.PNG">
-      
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/NoteToNote_and_help.PNG" width="838" height="495" title="NoteToNote_and_help.PNG">
-      
+<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/NoteToNote_and_help.PNG" width="100%" height="330" title="NoteToNote_and_help.PNG">      
 
 Use the **From**/**To** input boxes across the top of the Map Input window to assign a new value (letter-name and optional accidental) to a note in every octave throughout the music you are processing. Add as many assignments as the map requires. Then click **Apply** to process the currently selected passage, or the entire score if nothing is selected. 
 
