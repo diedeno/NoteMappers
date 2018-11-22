@@ -38,6 +38,7 @@ A description of each NoteMapper plugin follows. You can access much of the same
 ## Note to Note
 
 ![NoteToNote_and_help.PNG](https://github.com/paulsantacruz/NoteMappers/images/NoteToNote_and_help.PNG)
+<img src="https://github.com/paulsantacruz/NoteMappers/images/NoteToNote_and_help.PNG" width="256" height="256" title="NoteToNote_and_help.PNG">
       
 
 Use the **From**/**To** input boxes across the top of the Map Input window to assign a new value (letter-name and optional accidental) to a note in every octave throughout the music you are processing. Add as many assignments as the map requires. Then click **Apply** to process the currently selected passage, or the entire score if nothing is selected. 
