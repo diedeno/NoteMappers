@@ -30,7 +30,11 @@ Next:
 
 A common mapping application is to transform melodic material by changing its underlying mode or scale. Purely modal or diatonic material is best suited to this treatment, because chromatic alterations make the identity of each mode/scale less clear and complicate the design of a suitable map. _Composers who work with modal and tonal materials_ may be particularly interested in the Note to Note, Map Assistant, and Adaptive Mapper plugins.
 
+<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/NoteToNote_ModeMap_Ex.PNG" title="NoteToNote_ModeMap_Ex.PNG">
+
 Conversely, if your musical language encompasses _atonal and highly/freely chromatic materials_, the Pc to Pc and Pitch to Pitch plugins may be of interest, especially if you are familiar with the integer models of pitch and pitch class that are common in twelve-tone and musical set theory (e.g. https://en.wikipedia.org/wiki/Pitch_class#Integer_notation). The Map Assistant and Adaptive Mapper plugins make some of the same functions accessible to users who prefer to stick with music notation. (But anyone with experimental inclinations might have fun with the Pc to Pc plugin's randomizers!)
+
+<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/PcToPc_Map_Ex.PNG" title="PcToPc_Map_Ex.PNG">
 
 A description of each NoteMapper plugin follows. You can access much of the same information within a plugin by clicking on its Help button.
 
