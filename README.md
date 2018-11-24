@@ -5,7 +5,7 @@ The primary mapping plugins  —  **Note to Note**, **Pc to Pc**, and **Pitch to
 
 Once copied, a map can be pasted into the appropriate mapping plugin, or into the **Adaptive Mapper**, which is designed to recognize and apply any valid map (five types in all). Finally, a **Pc Speller** utility is provided for customizing the spelling of each chromatic step; it is particularly useful in conjunction with the Pc to Pc and Pitch to Pitch plugins, which spell pitches according to built-in defaults that may not suit you.
 
-Please have a look at the [REFERENCE MANUAL](https://github.com/paulsantacruz/NoteMappers/blob/master/Reference%20Manual.md) for
+Please have a look at the [REFERENCE MANUAL](https://github.com/paulsantacruz/NoteMappers/blob/master/reference-manual.md) for
 - download and installation details
 - examples of usage
 - documentation of each plugin
