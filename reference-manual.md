@@ -22,13 +22,14 @@ To use the NoteMapper plugins, you must first install MuseScore. Installations f
 
 Next: 
 
-1.  **Download** a zipped folder with all six plugins:
-  - [NoteMappers](url TBD) at the MuseScore website NoteMappers page
-  - _or_ [NoteMappers](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/paulsantacruz/NoteMappers/tree/master/NoteMapper-qml-files) courtesy of Minhas Kamal's DownGit
-  
-    _or_ find individual \*.qml files at https://github.com/paulsantacruz/NoteMappers/tree/master/NoteMapper-qml-files
+1. **Download** 
 
-1.  Follow the MuseScore Handbook instructions for [plugin installation](https://musescore.org/en/handbook/plugins#installation).
+  - [NoteMappers](url TBD) at the MuseScore website NoteMappers page
+  - _or_ [NoteMappers](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/paulsantacruz/NoteMappers/tree/master/NoteMapper-qml-files) via Minhas Kamal's DownGit
+  
+2. This gives you a zipped archive with all six plugins. Unzip; you'll have a folder **NoteMapper-qml-files** with files like "NoteMapper-Adaptive.qml". (Or find individual \*.qml files at https://github.com/paulsantacruz/NoteMappers/tree/master/NoteMapper-qml-files.)
+
+3. Follow the MuseScore Handbook instructions for [plugin installation](https://musescore.org/en/handbook/plugins#installation).
 
 
 ## Uses
