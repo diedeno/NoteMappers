@@ -24,7 +24,7 @@ Next:
 
 1. **Download** 
 
-  - [NoteMappers](url TBD) at the MuseScore website NoteMappers page
+  - [NoteMappers](https://musescore.org/sites/musescore.org/files/2018-11/NoteMappers-0.9-beta.zip) at the MuseScore website NoteMappers page
   - _or_ [NoteMappers](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/paulsantacruz/NoteMappers/tree/master/NoteMapper-qml-files) via Minhas Kamal's DownGit
   
 2. This gives you a zipped archive with all six plugins. Unzip; you'll have a folder **NoteMapper-qml-files** with files like "NoteMapper-Adaptive.qml". (Or you can find individual \*.qml files at https://github.com/paulsantacruz/NoteMappers/tree/master/NoteMapper-qml-files.)
