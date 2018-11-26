@@ -1,6 +1,6 @@
 # NoteMapper Plugins
 
-A bundle of six pitch-transformation plugins for [MuseScore 2](https://musescore.org). The primary mapping plugins  —  **Note to Note**, **Pc to Pc**, and **Pitch to Pitch** —  map pitches to new values using different models of pitch, as detailed in the descriptions below. The **Map Assistant** plugin lets you design various types of maps with music notation, using a specially formatted score. Maps (which are just comma-separated lists of numbers) can be copied from any of these sources and pasted as text in a score or text file to store them for future use.
+A bundle of six pitch-transformation plugins for [MuseScore 2](https://musescore.org). The principal mapping plugins  —  **Note to Note**, **Pc to Pc**, and **Pitch to Pitch** —  map pitches to new values using different models of pitch, as detailed in the descriptions below. The **Map Assistant** plugin lets you design various types of maps with music notation, using a specially formatted score. Maps (which are just comma-separated lists of numbers) can be copied from any of these sources and pasted as text in a score or text file to store them for future use.
 
 Once copied, a map can be pasted into the appropriate mapping plugin, or into the **Adaptive Mapper**, which is designed to recognize and apply any valid map (five types in all). Finally, a **Pc Speller** utility is provided for customizing the spelling of each chromatic step; it is particularly useful in conjunction with the Pc to Pc and Pitch to Pitch plugins, which spell pitches according to built-in defaults that may not suit you.
 
@@ -22,8 +22,14 @@ To use the NoteMapper plugins, you must first install MuseScore. Installations f
 
 Next: 
 
-1.  Download one or more NoteMapper plugins from LOCATION TBD.
-1.  Follow the MuseScore Handbook instructions for [plugin installation](https://musescore.org/en/handbook/plugins#installation).
+1. **Download** 
+
+  - [NoteMappers](https://musescore.org/sites/musescore.org/files/2018-11/NoteMappers-0.9-beta.zip) at the MuseScore website NoteMappers page
+  - _or_ [NoteMappers](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/paulsantacruz/NoteMappers/tree/master/NoteMapper-qml-files) via Minhas Kamal's DownGit
+  
+2. This gives you a zipped archive with all six plugins. Unzip; you'll have a folder **NoteMapper-qml-files** with files like "NoteMapper-Adaptive.qml". (Or you can find individual \*.qml files at https://github.com/paulsantacruz/NoteMappers/tree/master/NoteMapper-qml-files.)
+
+3. Follow the MuseScore Handbook instructions for [plugin installation](https://musescore.org/en/handbook/plugins#installation).
 
 
 ## Uses
