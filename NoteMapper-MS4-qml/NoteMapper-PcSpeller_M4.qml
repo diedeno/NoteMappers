@@ -40,7 +40,7 @@ MuseScore {
         if (mscoreMajorVersion >= 4) {
             title = qsTr("Notemapper-PCSpeller") ;
            // thumbnailName = "thumbnail.png";
-           // categoryCode = "some_category";
+            categoryCode = "composing-arranging-tools";
            }
         }   
 
