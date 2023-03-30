@@ -36,7 +36,7 @@ MuseScore {
         if (mscoreMajorVersion >= 4) {
             title = qsTr("Notemapper-Note2Note") ;
            // thumbnailName = "thumbnail.png";
-           // categoryCode = "some_category";
+            categoryCode = "composing-arranging-tools";
            }
         }   
 
