@@ -35,7 +35,7 @@ MuseScore {
         if (mscoreMajorVersion >= 4) {
             title = qsTr("Notemapper-Pitch2Pitch") ;
            // thumbnailName = "thumbnail.png";
-           // categoryCode = "some_category";
+            categoryCode = "composing-arranging-tools";
            }
         }   
         
