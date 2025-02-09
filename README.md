@@ -10,4 +10,4 @@ Please have a look at the [REFERENCE MANUAL](https://github.com/diedeno/NoteMapp
 - examples of usage
 - documentation of each plugin
 
-![notemapper-plugins-for-musescore.png](https://github.com/paulsantacruz/NoteMappers/blob/master/images/notemapper-plugins-for-musescore.png)
+![notemapper-plugins-for-musescore.png](https://github.com/diedeno/NoteMappers/blob/master/images/notemapper-plugins-for-musescore.png)
