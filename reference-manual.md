@@ -18,36 +18,25 @@ Once copied, a map can be pasted into the appropriate mapping plugin, or into th
 
 ## Installation
 
-To use the NoteMapper plugins, you must first install MuseScore. Installations for Windows, Mac, Linux, and BSD are available from the [MuseScore website](https://musescore.org/). These plugins are only compatible with version 2 of MuseScore (_not_ with version 1, and _not yet_ with version 3). 
-
-Next: 
-
-1. **Download** 
-
-  - [NoteMappers](https://musescore.org/sites/musescore.org/files/2018-11/NoteMappers-0.9-beta.zip) at the MuseScore website NoteMappers page
-  - _or_ [NoteMappers](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/paulsantacruz/NoteMappers/tree/master/NoteMapper-qml-files) via Minhas Kamal's DownGit
-  
-2. This gives you a zipped archive with all six plugins. Unzip; you'll have a folder **NoteMapper-qml-files** with files like "NoteMapper-Adaptive.qml". (Or you can find individual \*.qml files at https://github.com/paulsantacruz/NoteMappers/tree/master/NoteMapper-qml-files.)
-
-3. Follow the MuseScore Handbook instructions for [plugin installation](https://musescore.org/en/handbook/plugins#installation).
+To use the NoteMapper plugins, you must first install MuseScore. These plugins are only compatible with versions 2, 3 and 4 of MuseScore
 
 
 ## Uses
 
 A common mapping application is to transform melodic material by changing its underlying mode or scale. Purely modal or diatonic material is best suited to this treatment, because chromatic alterations make the identity of each mode/scale less clear and complicate the design of a suitable map. _Composers who work with modal and tonal materials_ may be particularly interested in the Note to Note, Map Assistant, and Adaptive Mapper plugins.
 
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/NoteToNote_ModeMap_Ex.PNG" title="NoteToNote_ModeMap_Ex.PNG">
+<img src="https://github.com/diedeno/NoteMappers/blob/master/images/NoteToNote_ModeMap_Ex.PNG" title="NoteToNote_ModeMap_Ex.PNG">
 
 Conversely, if your musical language encompasses _atonal and highly/freely chromatic materials_, the Pc to Pc and Pitch to Pitch plugins may be of interest, especially if you are familiar with the integer models of pitch and pitch class that are common in twelve-tone and musical set theory (e.g. https://en.wikipedia.org/wiki/Pitch_class#Integer_notation). The Map Assistant and Adaptive Mapper plugins make some of the same functions accessible to users who prefer to stick with music notation. (But anyone with experimental inclinations might have fun with the Pc to Pc plugin's randomizers!)
 
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/PcToPc_Map_Ex.PNG" title="PcToPc_Map_Ex.PNG">
+<img src="https://github.com/diedeno/NoteMappers/blob/master/images/PcToPc_Map_Ex.PNG" title="PcToPc_Map_Ex.PNG">
 
 A description of each NoteMapper plugin follows. You can access much of the same information within a plugin by clicking on its Help button.
 
 
 ## Note to Note
 
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/NoteToNote_and_Help.PNG" width="70%" height="70%" title="NoteToNote_and_Help.PNG">
+<img src="https://github.com/diedeno/NoteMappers/blob/master/images/NoteToNote_and_Help.PNG" width="70%" height="70%" title="NoteToNote_and_Help.PNG">
 
 Use the **From**/**To** input boxes across the top of the Map Input window to assign a new value (letter-name and optional accidental) to a note in every octave throughout the music you are processing. Add as many assignments as the map requires. Then click **Apply** to process the currently selected passage, or the entire score if nothing is selected. 
 
@@ -60,7 +49,7 @@ The Note to Note plugin is responsive to scores with [transposing instruments](h
 
 ## Pc to Pc
 
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/PcToPc.PNG" width="50%" height="50%" title="PcToPc.PNG">
+<img src="https://github.com/diedeno/NoteMappers/blob/master/images/PcToPc.PNG" width="50%" height="50%" title="PcToPc.PNG">
       
 Pitch class (pc) values represent steps of the chromatic scale: 0 is C (and its enharmonic equivalents), 1 is C-sharp (ditto), and so on. A map determines how pc values will be changed in the music you are processing. To map pc X to a new value Y, find X in the "From" row at the top of the interface, and enter Y in the "To" field directly below it. Use as many "To" fields as your map requires, or try randomizing all twelve values. Then click **Apply** to process the currently selected passage, or the entire score if nothing is selected. 
 
@@ -73,7 +62,7 @@ The Pc to Pc plugin is responsive to scores with [transposing instruments](https
 
 ## Pitch to Pitch
 
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/PitchToPitch.PNG" width="50%" height="50%" title="PitchToPitch.PNG">
+<img src="https://github.com/diedeno/NoteMappers/blob/master/images/PitchToPitch.PNG" width="50%" height="50%" title="PitchToPitch.PNG">
 
 A Pitch to Pitch map determines how MIDI pitch values will be changed in the music you are processing. Normally you specify a map with one or more **pairs** of the form `X:Y`, meaning "map X to Y". For example, `60:72` raises every middle C by an octave. You can specify additional pairs on new lines, or put them on the same line separated with commas. So:
 
@@ -93,7 +82,7 @@ Once a map is entered in either format (pairs or list), click **Apply** to proce
 
 ## Map Assistant
 
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/MapAsst_and_Result.PNG" width="70%" height="70%" title="MapAsst_and_Result.PNG">
+<img src="https://github.com/diedeno/NoteMappers/blob/master/images/MapAsst_and_Result.PNG" width="70%" height="70%" title="MapAsst_and_Result.PNG">
 
 Use this plugin to build maps of various types based on notes in the current score. Copy the result and paste it into a suitable NoteMapper to apply it, or save it as text in a score or text file.
 
@@ -115,12 +104,12 @@ Use this plugin to build maps of various types based on notes in the current sco
 
 Map Assistant expects a score with two staves, each with a succession of single notes, and it produces a map that sends the first note of the upper staff to the first of the lower, the second of the upper to the second of the lower, third to third, and so on. The alignment of upper-staff and lower-staff notes is ignored, as are surplus notes, voices, and staves (see example). A score far outside these expectations may cause the plugin to fail.
 
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/MapAsst_ScoreEx.PNG" title="MapAsst_ScoreEx.PNG">
+<img src="https://github.com/diedeno/NoteMappers/blob/master/images/MapAsst_ScoreEx.PNG" title="MapAsst_ScoreEx.PNG">
 
 
 ## Adaptive Mapper
 
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/Adaptive.PNG" width="50%" height="50%" title="Adaptive.PNG">
+<img src="https://github.com/diedeno/NoteMappers/blob/master/images/Adaptive.PNG" width="50%" height="50%" title="Adaptive.PNG">
 
 The Adaptive Mapper is designed to recognize and apply maps originating from various NoteMapper plugins: Note to Note, Pc to Pc, and Pitch to Pitch; plus maps derived from music notation using the Map Assistant plugin. Maps (which are just comma-separated lists of numbers) can be copied from any of these sources and pasted into the Adaptive Mapper Input window. To store a map for future use, simply paste it as text in a score or text file.
 
@@ -149,7 +138,7 @@ Once a map is entered, click **Apply** to process the currently selected passage
 
 ## Pc Speller
 
-<img src="https://github.com/paulsantacruz/NoteMappers/blob/master/images/PcSpeller.PNG" width="50%" height="50%" title="PcSpeller.PNG">
+<img src="https://github.com/diedeno/NoteMappers/blob/master/images/PcSpeller.PNG" width="50%" height="50%" title="PcSpeller.PNG">
 
 Use this plugin to apply a spelling of your choice to each step of the chromatic scale (i.e. to each pitch class 0 through 11). Leave a setting at "--" to preserve a pc's existing spelling(s). For instance, if the music you are processing includes a mixture of G-sharps and A-flats, the plugin can spell them uniformly one way or the other, or leave things as they stand. It cannot choose spellings based on tonal context or make case-by-case decisions. It is mainly intended as a tool for overriding the default spellings used by the Pc to Pc and Pitch to Pitch plugins.
 
